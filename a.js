@@ -1,0 +1,18 @@
+$(function(){
+    $("#foot2").click(function(){
+        console.log("safd");
+        $("iframe").attr("src","02.html");
+    });
+    $("#foot3").click(function(){
+        console.log("safd");
+        $("iframe").attr("src","03.html");
+    });
+    $("#foot4").click(function(){
+        console.log("safd");
+        $("iframe").attr("src","04.html");
+    });
+    $("#foot1").click(function(){
+        console.log("safd");
+        $("iframe").attr("src","01.html");
+    })
+});
